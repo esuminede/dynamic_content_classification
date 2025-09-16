@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Site İleyici",
+    "description": "GSB stajımdaki Dynamic Content Classifier projesi ağ dinleme aşaması.",
+    "version": "1.0",
+    "permissions": [
+        "webNavigation",  
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
